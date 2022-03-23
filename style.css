@@ -1,0 +1,45 @@
+/*
+selektor{
+    właściwość: wartość
+}
+*/
+body{
+    background-color: rgb(196, 153, 89);
+    margin:0;
+}
+
+body > header{
+    border: 2px dashed red;
+    text-align: center;
+    background-color: rgb(49, 100, 83);
+}
+/* główna nawigacja */
+
+nav ul {
+    border: 5px dashed darksalmon;
+    /*punktowanie list */
+    list-style-type:none;
+    padding: 0;
+    height: 150px;
+
+    /* display flex */
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+/* pojedyncze przyciski (Home, projekty, Kontakt) */
+
+
+
+nav ul li{
+    border: 5px dashed darkslateblue;
+}
+/* header który jest bezpośrednim dzieckiem
+
+body > header{
+    border: 2px dashed red;
+}  */
