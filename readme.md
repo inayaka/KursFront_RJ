@@ -1,2 +1,2 @@
 Witaj FRONT świecie 
-cwiczenie
+cw
