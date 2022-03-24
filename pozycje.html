@@ -9,16 +9,52 @@
         position: fixed;
         bottom: 0;
         right:0;
-        
-
-
-
-
     }
-
+    .sticky{
+        position: sticky;
+        top:0;
+    }
+    .relative{
+        position: relative;
+        height:250px;
+    }
+    
+    .absolute{
+        position: absolute;
+        bottom: 0;
+        right:0;
+    }
 
 </style>
 
 
-<div class="STATIC"></div>
-<div class="FIXED"></div>
+<div class="static">STATIC</div>
+<div class="fixed">FIXED</div>
+<div class="sticky">STICKY</div>
+<div class="absolute">ABSOLUTE</div>
+<div class="relative">RELATIVE</div>
+
+
+<style>
+    .parent{
+    border: 10px solid blue;
+    position: relative;
+    height: 150px;
+    padding: 10px;
+}
+    .child{
+        box-sizing: border-box;
+        
+
+}
+
+
+</style>
+<div class="parent">
+    <div class="child"></div>
+</div>
+
+
+
+</body>
+</html>
