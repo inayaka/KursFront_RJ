@@ -48,22 +48,22 @@ nav ul {
 
 
 nav ul li{
-    border: 3px solid rgb(70, 63, 116);
+    border: 3px solid rgb(136, 128, 189);
     margin: 10px;
     padding: 5px 10px;
     background-color: rgb(104, 179, 156);
     color: rgb(67, 42, 158);
     /* zaokrąglanie */
-    border-radius: 15px;
+    border-radius: 11px;
     /* wygląd kursora */
-    cursor: pointer;
+    cursor: grab;
     transition: .5s;
 }
 /* styl elementu po nakierowaniu nań myszką */
 nav ul li:hover{
     border-color: rgb(111, 81, 139);
-    background-color: rgb(117, 180, 180);
-    color:rgb(83, 51, 19)
+    background-color: rgb(117, 180, 156);
+    color:rgb(219, 216, 27)
 }
 nav ul li:active{
     border-color: rgb(192, 159, 118);
