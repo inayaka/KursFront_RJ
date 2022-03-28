@@ -1,8 +1,8 @@
 /*
 selektor{
     właściwość: wartość
-}
-*/
+}   */
+
 *{
     box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ body{
 
 body > header{
     background-color: rgb(49, 100, 83);
-    border: 7px solid rgb(118, 146, 110);
+    border: 7px solid rgba(118, 146, 110, 0.966);
     text-align: center;
     
 }
@@ -27,6 +27,7 @@ nav{
 }
 
 nav ul {
+    background-color: antiquewhite;
     border: 4px solid darksalmon;
     border-top: none;
     /*punktowanie list */
@@ -55,7 +56,7 @@ nav ul li{
     border-radius: 15px;
     /* wygląd kursora */
     cursor: pointer;
-    transition: 1.5s;
+    transition: .5s;
 }
 /* styl elementu po nakierowaniu nań myszką */
 nav ul li:hover{
@@ -75,7 +76,7 @@ body > header{
     border: 2px dashed red;
 }  */
 
-.coockies{
+.cookies{
     border:5px solid rgb(107, 107, 128);
     position: fixed;
     bottom: 0;
