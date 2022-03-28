@@ -1,14 +1,15 @@
 /*
 selektor{
     właściwość: wartość
-}   */
+}   
+*/
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(196, 153, 89);
+    background-color: rgba(196, 153, 89, 0.171);
     margin:0;
     /*czcionka*/
     font-family: 'Lato';
