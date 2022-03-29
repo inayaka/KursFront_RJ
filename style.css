@@ -89,3 +89,22 @@ body > header{
     padding:0 5px;
 
 }
+
+
+
+/* mein header*/
+main > header{
+    border: 0px solid red;
+}
+.imgField{
+    text-align: center;
+    border: 7px solid orange;
+}
+.headerText{
+    border:7px solid green;
+    /*padding:0 2 em;
+    padding-bottom: 1em;
+    w jednej linii*/
+    padding: 0 2em 1em 2em;
+
+}
