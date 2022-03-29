@@ -92,19 +92,64 @@ body > header{
 
 
 
-/* mein header*/
-main > header{
-    border: 0px solid red;
+/* mein header "O mnie*/
+/*main > header{*/
+    main{
+    border: 0px solid rgb(134, 152, 173);
+    padding: 2em;
 }
 .imgField{
     text-align: center;
-    border: 7px solid orange;
+    border: 7px solid rgb(148, 137, 117);
 }
 .headerText{
-    border:7px solid green;
+    /*border:7px solid rgb(114, 134, 139);*/
     /*padding:0 2 em;
     padding-bottom: 1em;
     w jednej linii*/
     padding: 0 2em 1em 2em;
 
 }
+img{
+    max-width: 100%;
+    border-radius: 11%;
+}
+/* reguła media*/
+@media (min-width:768px){
+    main > header, 
+    main > article{
+        /*border-color: antiquewhite;*/
+        display: flex;
+        /* odpowiada za pozycję na osi y*/
+        align-items: center;
+        justify-content: center;
+    }
+}
+    /* - jeżelli chcę ustawić 50/50 zdjęcie i tekst 
+    to w @media: 
+
+    .imgField{
+        flex: 1;
+    }
+    .headerText{
+        flex: 1;
+    }  
+    */
+    /*padding dla wszystkich krawędzi, padding-botton - dolna*/
+
+    /*MAIN Article (TECHNOLOGIE*/
+    /*main article{
+        display: flex;
+    }*/
+    
+    .tableField{
+        /*border: 2px dashed rgb(121, 114, 161);*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        /*display:grid;
+    }
+    table{
+        margin:auto;
+    }*/
