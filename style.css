@@ -12,7 +12,9 @@ body{
     background-color: rgba(165, 201, 204, 0.411);
     margin:0;
     /*czcionka*/
-    font-family: 'Lato';
+    font-family: 'Righteous', cursive;
+    color:rgb(102, 72, 72);
+    text-shadow: 3px 3px 7px rgb(110, 84, 50);
 }
 
 body > header{
@@ -101,6 +103,7 @@ body > header{
 .imgField{
     text-align: center;
     border: 7px solid rgb(148, 137, 117);
+    border-radius:11%;
 }
 .headerText{
     /*border:7px solid rgb(114, 134, 139);*/
@@ -137,8 +140,8 @@ img{
     */
     /*padding dla wszystkich krawędzi, padding-botton - dolna*/
 
-    /*MAIN Article (TECHNOLOGIE*/
-    /*main article{
+    /*MAIN Article (TECHNOLOGIE
+    main article{
         display: flex;
     }*/
     
@@ -147,9 +150,16 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        /*display:grid;
+    }   
+    /*display:grid;
     }
     table{
-        margin:auto;
-    }*/
+        margin:auto;*/
+        th, td {
+            padding: 18px;
+            text-align: left;
+          }
+          th {
+            background-color: #465364;
+            color: rgb(202, 199, 166);
+          }
