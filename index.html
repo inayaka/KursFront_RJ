@@ -13,23 +13,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    
     <div id="root">
         
     </div>
-    <Header>
+    <header id="home">
         <!-- tytuł -->
         <h1>Ina - wizytówka</h1>
-    </Header>
+    </header>
     <nav>
        <!-- 1. Lista --> 
         <ul>
-            <li>Home</li>
             <li>
-                <a href="#projects"></a>
-                Projekty</li>
+                <a href="#home">
+                Home</a>
+            </li>
             <li>
-                <a href="#contact"></a>
-                Kontakt</li>
+                <a href="#projects">
+                Projekty</a>
+            </li>
+            <li>
+                <a href="#contact">
+                Kontakt</a>
+            </li>
         </ul>
     
     </nav>
@@ -65,34 +72,37 @@
         <div class="tableField">
             <!-- 2. tabelka -->
             <table border="1">
-    
-                <tr>
-                   <th> lp </th>
-                   <th>Technologia</th>
-                   <th>Moduł</th>
-                   <th>Ocena</th>
-               </tr>
-               
-               <tr>
-                    <td rowspan="2">1.</td>
-                    <td rowspan="2">HTLM</td>
-                    
-                    <td>Semantyka</td>
-                    <td>🤩🤩🤩</td>
-                </tr>
+        <thead>
+            <tr>
+                <th> lp </th>
+                <th>Technologia</th>
+                <th>Moduł</th>
+                <th>Ocena</th>
+            </tr>
+         </thead>
+         
+         <tbody>
+             <tr>
+                  <td rowspan="2">1.</td>
+                  <td rowspan="2">HTLM</td>
+                  
+                  <td>Semantyka</td>
+                  <td>🤩🤩🤩</td>
+              </tr>
+              <tr>                               
+                  <td>Tabele</td>
+                  <td>🤪</td>
+              </tr>
+     
+              <tr>
+                  <td>2.</td>
+                  <td>CSS</td>
+                  <td colspan="2">
+                      <a href="./pozycje.html" target="_blank">Pozycje</a>
+                      </td>
+              </tr>
+         </tbody>             
                 
-                <tr>                               
-                    <td>Tabele</td>
-                    <td>🤪</td>
-                </tr>
-    
-                <tr>
-                    <td>2.</td>
-                    <td>CSS</td>
-                    <td colspan="2">
-                        <a href="./pozycje.html" target="_blank">Pozycje</a>
-                        </td>
-                </tr>
            </table>
         </div>
         </article>
@@ -110,13 +120,17 @@
     <article id="contact">
         <header class="headerText">
             <h2>Kontakt</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eum, magnam, in tenetur odio quo debitis quaerat minus nihil eius perspiciatis dolores deleniti distinctio magni incidunt facere nulla voluptatem placeat!
+            </p>
                 </header>
 
         <form action="/index.html">
             <input type="email" name="" id="" placeholder="E-mail">
             <input type="text" name="" id="" placeholder="Tytuł">
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Wyślij">
+            <!--<input type="submit" value="Wyślij">-->
+            <button type="submit">WYŚLIJ</button>
 
         </form>
     </article>
@@ -125,10 +139,11 @@
         STOPKA STRONY
     </footer>
     <!-- POPUP COOkies-->
-    <div class="cookies">
+    <!--<div class="cookies">
         <p>Ta strona nie używa plików cookies</p>
         <button>OK</button>
     </div>
+-->
 
 
 </body>
