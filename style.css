@@ -128,7 +128,7 @@ body > header{
 
 @media (min-width:768px){
     main > header, 
-    main > article
+    main > article,
     #contact{
         /*border-color: antiquewhite;*/
         display: flex;
@@ -137,10 +137,11 @@ body > header{
         justify-content: center;
     }
 }
+    
     main > header > *,
     main > article > *,
     #contact > *{
-    color: green;
+    color: rgb(87, 39, 17);
     flex: 1;
     }
 
@@ -189,12 +190,12 @@ body > header{
 
           /*KONTAKT*/
           #contact{
-              border: 3px dashed rgb(104, 104, 173);
+              border: 3px dashed rgb(219, 219, 233);
               padding: 0 2em;
           }
 
           #contact form{
-              border: 3px dashed green;
+              border: 3px dashed rgb(204, 224, 204);
               display: flex;
               flex-direction: column;
               align-items: center;
@@ -212,9 +213,9 @@ body > header{
           }
 
           #contact form button{
-              background-color: #9fac65;
+              background-color: #a3b64d;
               padding: .2rem  1rem;
-              border-radius: 7px;
+              border-radius: 2px;
               outline: 0;
               border: none;
               cursor: pointer;
