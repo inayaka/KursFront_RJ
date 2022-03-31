@@ -129,7 +129,8 @@ body > header{
 @media (min-width:768px){
     main > header, 
     main > article,
-    #contact{
+    #contact,
+    #projects {
         /*border-color: antiquewhite;*/
         display: flex;
         /* odpowiada za pozycję na osi y*/
@@ -140,7 +141,8 @@ body > header{
     
     main > header > *,
     main > article > *,
-    #contact > *{
+    #contact > *
+    #projects > * {
     color: rgb(129, 94, 77);
     flex: 1;
     }
@@ -208,8 +210,8 @@ body > header{
               padding: .5rem;
               outline: 0;
               margin-bottom: .5rem;
-              border:4 px solidrgb(82, 66, 66)d;
-              font-size: inherit;
+              border:4 px solid rgb(82, 66, 66);
+              font-family: inherit;
           }
 
           #contact form button{
@@ -227,3 +229,26 @@ body > header{
               text-align: center;
           }
           
+          .carousel{
+              border: 2px dashed red;
+              display: flex;
+              align-items: center;
+          }
+          /*Wszystkie elementy*/
+          .cItem{
+              border: 2px dased blue;
+              flex:1;
+              padding:0 .5em;
+          }
+
+          .cItem p{display:none;}
+
+           /* Aktywny element (środkowy) */   
+           .active{
+               border: 5px dashed green;
+               flex:3;
+           }
+
+           .active p{
+              display:block;
+          }
