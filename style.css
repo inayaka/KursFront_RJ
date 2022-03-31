@@ -230,13 +230,13 @@ body > header{
           }
           
           .carousel{
-              border: 2px dashed red;
+              /*border: 2px dashed red;*/
               display: flex;
               align-items: center;
           }
           /*Wszystkie elementy*/
           .cItem{
-              border: 2px dased blue;
+              /*border: 2px dased blue;*/
               flex:1;
               padding:0 .5em;
           }
@@ -245,8 +245,9 @@ body > header{
 
            /* Aktywny element (środkowy) */   
            .active{
-               border: 5px dashed green;
+               /*border: 5px dashed green;*/
                flex:3;
+               box-shadow: 10px 10px 25 px red;
            }
 
            .active p{
